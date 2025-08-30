@@ -2,19 +2,19 @@
   "schemaVersion": 1,
   "id": "addon-template",
   "version": "${version}",
-  "name": "Addon Template",
-  "description": "An addon template for Meteor Client addons.",
+  "name": "mankool's Addons",
+  "description": "mankool's Meteor Client addons.",
   "authors": [
-    "seasnail"
+    "mankool0"
   ],
   "contact": {
-    "sources": "https://github.com/MeteorDevelopment/meteor-addon-template"
+    "sources": "https://github.com/mankool0/metor-addons"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
     "meteor": [
-      "com.example.addon.AddonTemplate"
+      "com.mankool.addon.Addons"
     ]
   },
   "mixins": [
