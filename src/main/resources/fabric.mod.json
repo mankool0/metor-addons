@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "mankool0-addon",
   "version": "${version}",
   "name": "mankool's Addons",
   "description": "mankool's Meteor Client addons.",
@@ -18,7 +18,7 @@
     ]
   },
   "mixins": [
-    "addon-template.mixins.json"
+    "mankool-addon.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25"
