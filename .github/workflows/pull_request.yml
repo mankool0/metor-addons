@@ -20,6 +20,19 @@ jobs:
           distribution: 'temurin'
           java-version: 21
 
+      - name: Checkout Meteor Client
+        uses: actions/checkout@v4
+        with:
+          repository: mankool0/meteor-client
+          path: meteor-client
+          persist-credentials: false
+
+      - name: Build and Install Meteor Client
+        run: |
+          cd meteor-client
+          ./gradlew publishToMavenLocal
+          cd ..
+
       - name: Build with Gradle
         run: ./gradlew build
 
